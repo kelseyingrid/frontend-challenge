@@ -13,16 +13,13 @@ body {
 /** text styles **/
 
 h1 {
-  font-size: 110%;
+  font-size: 120%;
 }
 
 h2, h3 {
   font-size: 100%;
 }
 
-h4 {
-  font-size: 70%;
-}
 
 
 /** stuff that sticks **/
@@ -33,33 +30,49 @@ h4 {
   width: 100%;
 }
 
-.status-bar, .nav {
-  background-color: #038264;
-  color: #F9F9F9;
-  text-align: center;
-  vertical-align: top;
+.status-bar {
+  width: 100%;
 }
 
-.status-bar {
-  padding: .5% 0%; /** need to fix vertical spacing **/
+.dropdown {
+  width: 100%;
 }
 
 .nav {
-  padding: .5%;
+  background-color: #038264;
+  color: #F9F9F9;
+  display: inline-block;
+  width: 100%;
+}
+
+.chevron-back {
+  color: #F9F9F9;
+  margin: 0px;
+}
+
+.back {
+  float: left;
+  font-weight: lighter;
+  margin-left: 5%;
+}
+
+.page-title {
+  margin-left: 9%;
+  font-size: 120%;
 }
 
 .filter {
   background-color: #22C19B;
   color: #000;
-  height: 200px;
-  padding: 1% 4%;
+  height: 250px;
+  padding: 1% 5%;
 }
 
 .headings {
   background-color: #A4E1D2;
   box-shadow: 0 10px 15px -1px #D1D2D2;
   height: 100px;
-  padding: 1% 4%;
+  padding: 1% 5%;
 }
 
 
@@ -70,30 +83,18 @@ h4 {
   color: #555;
 }
 
-.headings {
-  background-color: #A4E1D2;
-  box-shadow: 0 10px 15px -1px #D1D2D2;
-  height: 100px;
-  padding: 1% 4%;
-}
-
 .direction {
   background-color: #DCE2E1;
-  height: 50px;
-  padding: 0% 4%;
-}
-
-.direction > h3 {
-  vertical-align: middle; /** this isn't working **/
-
+  height: 70px;
+  padding: 0% 5%;
 }
 
 .data {
   background-color: #F9F9F9;
-  height: 150px;
   border-bottom: 1px solid #BCBBC1;
-  padding: 1% 4%;
-  vertical-align: middle;
+  height: 150px;
+  padding-left: 5%;
+  vertical-align: middle; /** not working **/
 }
 
 ul {
@@ -111,7 +112,7 @@ li {
 }
 
 .column-title-center {
-  margin-left: 10%;
+  margin-left: 11%;
   width: 50%;
 }
 
@@ -121,27 +122,27 @@ li {
 }
 
 .left {
-  color: #666;
+  color: #555;
   font-weight: normal;
   margin: 0;
   width: 8%;
 }
 
 .center {
-  color: #666;
+  color: #555;
   font-weight: normal;
   margin-left: 10%;
-  width: 50%;
+  width: 47%;
 }
 
 .right {
-  color: #666;
+  color: #555;
   font-weight: normal;
   margin-left: 0%;
   width: 18%;
 }
 
-.arrow {
-  float: right;
-  color: #BCBBC1;
+.chevron {
+  color: #555;
+  margin-left: 2%;
 }
