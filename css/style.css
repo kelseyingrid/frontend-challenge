@@ -17,6 +17,7 @@ h1 {
 }
 
 h2, h3 {
+  color: #666;
   font-size: 100%;
 }
 
@@ -35,6 +36,7 @@ h2, h3 {
 }
 
 .dropdown {
+  margin-top: 25px;
   width: 100%;
 }
 
@@ -42,22 +44,25 @@ h2, h3 {
   background-color: #038264;
   color: #F9F9F9;
   display: inline-block;
+  height: 150px;
   width: 100%;
 }
 
 .chevron-back {
   color: #F9F9F9;
-  margin: 0px;
+  margin-left: 1.5%;
+  margin-top: 20px;
 }
 
 .back {
-  float: left;
   font-weight: lighter;
-  margin-left: 5%;
+  margin-left: 0%;
+  margin-top: 20px;
 }
 
 .page-title {
-  margin-left: 9%;
+  margin-left: 11%;
+  margin-top: 20px;
   font-size: 120%;
 }
 
@@ -65,28 +70,35 @@ h2, h3 {
   background-color: #22C19B;
   color: #000;
   height: 250px;
-  padding: 1% 5%;
+  padding: 4% 5%;
 }
 
 .headings {
   background-color: #A4E1D2;
   box-shadow: 0 10px 15px -1px #D1D2D2;
   height: 100px;
-  padding: 1% 5%;
+  padding-left: 5%;
+  padding-top: 30px;
 }
 
 
 /** Stuff that scrolls **/
 
 .scroll {
-  margin-top: 500px;
+  margin-top: 504px;
   color: #555;
 }
 
 .direction {
   background-color: #DCE2E1;
   height: 70px;
-  padding: 0% 5%;
+  padding: 15px 5%;
+}
+
+.direction-alert {
+  background-color: #F2BEC1;
+  height: 70px;
+  padding: 15px 5%;
 }
 
 .data {
@@ -94,7 +106,15 @@ h2, h3 {
   border-bottom: 1px solid #BCBBC1;
   height: 150px;
   padding-left: 5%;
-  vertical-align: middle; /** not working **/
+  padding-top: 35px;
+}
+
+.data-oneLine {
+  background-color: #F9F9F9;
+  border-bottom: 1px solid #BCBBC1;
+  height: 150px;
+  padding-left: 5%;
+  padding-top: 55px;
 }
 
 ul {
@@ -103,7 +123,6 @@ ul {
 
 li {
   display: inline-block;
-  vertical-align: middle;
 }
 
 .column-title-left {
@@ -113,7 +132,7 @@ li {
 
 .column-title-center {
   margin-left: 11%;
-  width: 50%;
+  width: 46%;
 }
 
 .column-title-right {
@@ -122,27 +141,27 @@ li {
 }
 
 .left {
-  color: #555;
+  color: #666;
   font-weight: normal;
   margin: 0;
   width: 8%;
 }
 
 .center {
-  color: #555;
+  color: #666;
   font-weight: normal;
   margin-left: 10%;
   width: 47%;
 }
 
 .right {
-  color: #555;
+  color: #666;
   font-weight: normal;
   margin-left: 0%;
   width: 18%;
 }
 
 .chevron {
-  color: #555;
-  margin-left: 2%;
+  color: #666;
+  margin-left: 4%;
 }
