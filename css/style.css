@@ -4,23 +4,34 @@
 
 body {
   display: inline;
-  font-family: sans-serif; /** need to be more speicific **/
-  font-size: 38px;
+  font-family: "SF Pro Text", sans-serif; /** need to be more speicific **/
+  font-size: 15px;
   font-weight: bold;
 }
 
 
 /** text styles **/
 
-h1 {
-  font-size: 120%;
-}
 
-h2, h3 {
+h2 {
   color: #666;
   font-size: 100%;
 }
 
+div > h2 {
+  color: #000;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  line-height: 120%;
+  margin-left: 5%;
+  vertical-align: middle;
+}
 
 
 /** stuff that sticks **/
@@ -35,94 +46,89 @@ h2, h3 {
   width: 100%;
 }
 
-.dropdown {
-  margin-top: 25px;
-  width: 100%;
-}
-
 .nav {
   background-color: #038264;
   color: #F9F9F9;
   display: inline-block;
-  height: 150px;
+  height: 70px;
   width: 100%;
 }
 
 .chevron-back {
   color: #F9F9F9;
-  margin-left: 1.5%;
-  margin-top: 20px;
+  font-size: 110%;
+  margin-left: 2%;
+  margin-top: 11px;
 }
 
 .back {
   font-weight: lighter;
-  margin-left: 0%;
-  margin-top: 20px;
+  margin-left: 1%;
+  margin-top: 10px;
 }
 
 .page-title {
-  margin-left: 11%;
-  margin-top: 20px;
+  margin-left: 6%;
+  margin-top: 10px;
   font-size: 120%;
 }
 
 .filter {
   background-color: #22C19B;
   color: #000;
-  height: 250px;
-  padding: 4% 5%;
+  height: 95px;
+  padding: 4% 7%;
+}
+
+.dropdown {
+  margin-top: 10px;
+  width: 100%;
 }
 
 .headings {
   background-color: #A4E1D2;
-  box-shadow: 0 10px 15px -1px #D1D2D2;
-  height: 100px;
-  padding-left: 5%;
-  padding-top: 30px;
+  box-shadow: 0 5px 5px -1px #D1D2D2;
+  height: 35px;
+  padding-left: 7%;
+  padding-top: 8px;
 }
 
 
 /** Stuff that scrolls **/
 
 .scroll {
-  margin-top: 504px;
+  margin-top: 200px;
   color: #555;
 }
 
 .direction {
   background-color: #DCE2E1;
-  height: 70px;
-  padding: 15px 5%;
+  font-size: 85%;
+  height: 30px;
+  padding: 9px 7%;
 }
 
 .direction-alert {
   background-color: #F2BEC1;
-  height: 70px;
-  padding: 15px 5%;
+  font-size: 85%;
+  height: 30px;
+  padding: 9px 7%;
 }
 
 .data {
   background-color: #F9F9F9;
-  border-bottom: 1px solid #BCBBC1;
-  height: 150px;
-  padding-left: 5%;
-  padding-top: 35px;
+  border-bottom: 1px solid #DBDADB;
+  height: 60px;
+  padding-left: 7%;
+  padding-top: 12px;
 }
 
 .data-oneLine {
   background-color: #F9F9F9;
-  border-bottom: 1px solid #BCBBC1;
-  height: 150px;
-  padding-left: 5%;
-  padding-top: 55px;
-}
-
-ul {
-  padding: 0;
-}
-
-li {
-  display: inline-block;
+  border-bottom: 1px solid #DBDADB;
+  height: 60px;
+  padding-left: 7%;
+  padding-top: 22px;
 }
 
 .column-title-left {
@@ -162,6 +168,6 @@ li {
 }
 
 .chevron {
-  color: #666;
-  margin-left: 4%;
+  color: #999;
+  font-weight: 100;
 }
