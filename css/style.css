@@ -12,7 +12,6 @@ body {
 
 /** text styles **/
 
-
 h2 {
   color: #666;
   font-size: 100%;
@@ -20,10 +19,6 @@ h2 {
 
 div > h2 {
   color: #000;
-}
-
-ul {
-  padding: 0;
 }
 
 li {
@@ -55,27 +50,24 @@ li {
 }
 
 .chevron-back {
-  color: #F9F9F9;
-  font-size: 110%;
   margin-left: 2%;
-  margin-top: 11px;
+  margin-top: 13px;
 }
 
 .back {
   font-weight: lighter;
-  margin-left: 1%;
+  margin-left: 2.5%;
   margin-top: 10px;
 }
 
 .page-title {
+  font-size: 120%;
   margin-left: 6%;
   margin-top: 10px;
-  font-size: 120%;
 }
 
 .filter {
   background-color: #22C19B;
-  color: #000;
   height: 95px;
   padding: 4% 7%;
 }
@@ -165,9 +157,4 @@ li {
   font-weight: normal;
   margin-left: 0%;
   width: 18%;
-}
-
-.chevron {
-  color: #999;
-  font-weight: 100;
 }
