@@ -4,7 +4,7 @@
 
 body {
   display: inline;
-  font-family: "SF Pro Text", sans-serif; /** need to be more speicific **/
+  font-family: "SF Pro text", Roboto, Helvetica, Arial, sans-serif;
   font-size: 15px;
   font-weight: bold;
 }
@@ -17,7 +17,7 @@ h2 {
   font-size: 100%;
 }
 
-div > h2 {
+section > h2 {
   color: #000;
 }
 
@@ -31,33 +31,28 @@ li {
 
 /** stuff that sticks **/
 
-.no-scroll {
+header {
+  background-color: #038264;
+  color: #F9F9F9;
+  display: inline-block;
+  height: 70px;
   position: fixed;
   top: 0;
-  width: 100%;
 }
 
 .status-bar {
   width: 100%;
 }
 
-.nav {
-  background-color: #038264;
-  color: #F9F9F9;
-  display: inline-block;
-  height: 70px;
-  width: 100%;
-}
-
 .chevron-back {
   margin-left: 2%;
-  margin-top: 13px;
+  margin-top: 17px;
 }
 
 .back {
   font-weight: lighter;
   margin-left: 2.5%;
-  margin-top: 10px;
+  margin-top: 13px;
 }
 
 .page-title {
@@ -68,12 +63,16 @@ li {
 
 .filter {
   background-color: #22C19B;
-  height: 95px;
+  height: 90px;
+  margin-top: 70px;
   padding: 4% 7%;
 }
 
-.dropdown {
+select {
+  background-color: #F9F9F9;
+  height: 30px;
   margin-top: 10px;
+  padding-left: 2%;
   width: 100%;
 }
 
@@ -89,7 +88,6 @@ li {
 /** Stuff that scrolls **/
 
 .scroll {
-  margin-top: 200px;
   color: #555;
 }
 
@@ -115,14 +113,6 @@ li {
   padding-top: 12px;
 }
 
-.data-oneLine {
-  background-color: #F9F9F9;
-  border-bottom: 1px solid #DBDADB;
-  height: 60px;
-  padding-left: 7%;
-  padding-top: 22px;
-}
-
 .column-title-left {
   margin: 0;
   width: 8%;
@@ -139,15 +129,15 @@ li {
 }
 
 .left {
-  color: #666;
-  font-weight: normal;
+  color: #038264;
+  font-weight: bold;
   margin: 0;
   width: 8%;
 }
 
 .center {
   color: #666;
-  font-weight: normal;
+  font-weight: bold;
   margin-left: 10%;
   width: 47%;
 }
