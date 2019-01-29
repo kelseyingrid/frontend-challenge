@@ -76,6 +76,10 @@ select {
   width: 100%;
 }
 
+option {
+  color: red;
+}
+
 .headings {
   background-color: #A4E1D2;
   box-shadow: 0 5px 5px -1px #D1D2D2;
