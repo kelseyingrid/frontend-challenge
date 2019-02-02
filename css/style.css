@@ -25,7 +25,7 @@ li {
   display: inline-block;
   line-height: 120%;
   margin-left: 5%;
-  vertical-align: middle;
+  vertical-align: top;
 }
 
 
@@ -167,14 +167,28 @@ select::-ms-expand {
 
 .center {
   color: #666;
-  font-weight: bold;
+  font-weight: normal;
   margin-left: 10%;
-  width: 47%;
+  width: 30%;
 }
 
-.right {
+.right-top {
+  color: #038264;
+  font-weight: bold;
+  margin-left: 10%;
+  width: 20%;
+}
+
+.right-bottom {
   color: #666;
   font-weight: normal;
-  margin-left: 0%;
-  width: 18%;
+  margin-left: 60%;
+  width: 28%;
+}
+
+.right-alert {
+  color: #666;
+  font-weight: normal;
+  margin-left: 10%;
+  width: 25%;
 }
